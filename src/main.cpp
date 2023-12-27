@@ -1,8 +1,8 @@
 #include <cassert>
-#include "core.h"
-#include "root.h"
-#include "primitive.h"
-#include "object.h"
+#include "../include/core.h"
+#include "../include/root.h"
+#include "../include/primitive.h"
+#include "../include/object.h"
 
 
 
