@@ -3,4 +3,12 @@ project(serialization)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(untitled main.cpp)
+include_directories(
+        ${PROJECT_SOURCE_DIR}/src
+        ${PROJECT_SOURCE_DIR}/include
+)
+
+file(GLOB all_SRCS
+        "${PROJECT_SOURCE_DIR}/include/*.h"
+        "${PROJECT_SOURCE_DIR}/src/*.cpp"
+)
